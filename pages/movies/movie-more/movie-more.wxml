@@ -1,0 +1,2 @@
+<import src="../moviesGritTemplate/moviesGritTemplate.wxml"/>
+<template is="moviesGrit" data="{{movies}}" />

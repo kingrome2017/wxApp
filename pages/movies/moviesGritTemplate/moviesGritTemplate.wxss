@@ -1,0 +1,10 @@
+@import "../moviesTemplate/moviesTemplate.wxss";
+
+.float{
+    float:left;
+    margin-bottom: 20px;
+}
+.gritcontainer{
+   margin:40rpx 0 40rpx 6rpx;
+   height:1300rpx;
+}

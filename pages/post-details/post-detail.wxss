@@ -1,0 +1,98 @@
+/* pages/post-details/post-detail.wxss */
+page{
+  background-color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-img {
+  width: 100%;
+  height: 460rpx;
+}
+
+.authorBox {
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  width: 100%;
+}
+
+.authorImg {
+  width: 64rpx;
+  height: 64rpx;
+  vertical-align: middle;
+}
+
+.authorName {
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 30rpx;
+  vertical-align: middle;
+  color: #333;
+}
+
+.constText, .date {
+  font-size: 24rpx;
+  color: #999;
+  vertical-align: middle;
+  margin-left: 20rpx;
+}
+
+.titleMore {
+  margin-left: 46rpx;
+  width:100%;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-top: 30rpx;
+  letter-spacing: 3rpx;
+  color: #4b556c;
+}
+
+.tool {
+  margin-top: 20rpx;
+}
+
+.toolBox {
+  float: right;
+  vertical-align: middle;
+  margin-right: 40rpx;
+}
+.toolBox image{
+    width:90rpx;
+    height:90rpx;
+    position: relative;
+    z-index: 666;
+}
+.shareImg {
+  margin-left: 30rpx;
+}
+
+.blockLine {
+  width: 660rpx;
+  height: 1px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  top: 46rpx;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.detailContent {
+  color: #666;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+  font-size: 24rpx;
+}
+.musicLogo{
+  width:102rpx;
+  height:110rpx;
+  position: absolute;
+  left:45%;
+  top:180rpx;
+  opacity: 0.5;
+}

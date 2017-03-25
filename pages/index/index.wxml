@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <image src="/images/4.png" class="user-img"></image>
+    <text class="user-name">Hello 壁虎</text>
+  <view class="moto-container" bindtap="onTap">
+    <text class="moto">开启小程序之旅</text>
+  </view>
+</view>

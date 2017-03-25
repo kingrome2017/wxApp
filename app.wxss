@@ -1,0 +1,15 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  font-family: MicroSoft Yahei;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #fff;
+} 
+page{
+  height: 100%;
+  background-color: #fff;
+}
+
